@@ -1,0 +1,68 @@
+#first {
+  color: lightseagreen;
+  background-color: peachpuff;
+}
+
+#second {
+  color: rgb(255, 60, 7);
+  background-color: rgb(255, 240, 240);
+}
+
+body {
+  background: rgba(40, 230, 170, 0.25);
+}
+
+#third {
+  color: rgb(136, 0, 116);
+  background-color: rgba(0, 200, 0, 1);
+}
+
+#fourth {
+  color: rgb(136, 0, 116);
+  background-color: rgba(0, 200, 0, 0.75);
+}
+
+#fifth {
+  color: rgb(136, 0, 116);
+  background-color: rgba(0, 200, 0, 0.3);
+}
+
+.outer {
+  width: 400px;
+  height: 200px;
+  background: blue;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+
+html {
+  font-size: 24px;
+}
+
+div {
+  font-size: 20px;
+}
+
+.relative {
+  font-size: 2rem; /* rem values do not depend on the parent (div) but the root */
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: orange;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: green;
+}

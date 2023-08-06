@@ -1,0 +1,47 @@
+/* .header h1 {
+  color: green;
+} */
+
+.header > h1 {
+  color: purple;
+}
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 20px;
+}
+
+p:hover {
+  color: rebeccapurple;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+
+:root {
+  font-size: 200%; /* rem values will scale but px will not */
+}

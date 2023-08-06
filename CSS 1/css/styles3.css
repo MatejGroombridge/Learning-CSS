@@ -1,0 +1,26 @@
+body {
+  font-family: monospace;
+}
+
+div {
+  color: springgreen;
+  background-color: steelblue;
+}
+span {
+  text-transform: uppercase;
+}
+
+.red {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+/* INHERITANCE
+- child elements inherit from a parent element
+- not all properties are inherited though (eg. borders)
+- Your newest rule is applied
+- More advanced: specificity
+*/

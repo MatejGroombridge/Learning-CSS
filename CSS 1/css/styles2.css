@@ -1,0 +1,48 @@
+/* ELEMENT SELECTORS */
+h1 {
+  color: red;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  color: grey;
+}
+
+/* MORE ELEMENT SELECTORS */
+body {
+  color: red;
+}
+h1,
+h2 {
+  color: blue;
+}
+
+/* ID SELECTORS */
+#heading {
+  color: saddlebrown;
+  background: sandybrown;
+}
+#subheading {
+  color: springgreen;
+}
+/* You cannot reuse IDs across your page. That's what classes are for */
+
+/*  CLASS SELECTORS */
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+#title {
+  font-size: 30px;
+}
+
+.lowercase {
+  font-size: 10;
+}
